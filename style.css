@@ -1,0 +1,120 @@
+main{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(223,195,207), rgba(192,131,158,0.3));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .profile-image img{
+    width: 150px;
+    margin-top: 20px;
+}
+
+main .nameAndStack p{
+    text-align: center;
+}
+
+main .descriptions{
+    width: 45vw;
+    height: 40vh;
+    background: #55ACEE;
+    
+}
+
+main .descriptions .myExperience{
+    display: none;
+}
+
+main .descriptions .myProjects{
+    display: none;
+}
+
+main .descriptions .contactDetails{
+    display: none;
+}
+
+
+main .social-Icons{
+    display: flex;
+    width: 45vw;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+main .social-Icons a{
+    text-decoration: none;
+
+}
+
+main .social-Icons .fa-facebook{
+    width: 40px;
+    height: 40px;
+    background: #3B5998;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+main .social-Icons .fa-twitter{
+    width: 40px;
+    height: 40px;
+    background: #55ACEE;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+main .social-Icons .fa-github{
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+main .bottom-menu{
+    width: 40vw;
+
+}
+
+
+
+main .bottom-menu ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+main .bottom-menu ul li{
+    
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+main .bottom-menu ul li:hover{
+    
+    color: blue;
+
+}
